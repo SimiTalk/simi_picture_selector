@@ -6,11 +6,11 @@ Pod::Spec.new do |s|
   s.name         = "simi_picture_selector"
   s.version      = "1.0.0"
   s.summary      = "ImagePicker"
-  s.homepage     = "https://github.com/CLChater/simi_picture_selector"
+  s.homepage     = "https://github.com/SimiTalk/simi_picture_selector"
   s.license      = "MIT"
   s.authors      = "ImagePicker"
 
-  s.source       = { :git => "https://github.com/CLChater/simi_picture_selector.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/SimiTalk/simi_picture_selector.git", :tag => "#{s.version}" }
 
   s.platforms    = { :ios => min_ios_version_supported }
 

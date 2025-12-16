@@ -1,21 +1,45 @@
 {
   "name": "simi_picture_selector",
   "version": "1.0.0",
-  "description": "react native 原生图片选择器",
-  "main": "src/index",
-  "author": "CLChater <> (https://github.com/CLChater)",
-  "license": "UNLICENSED",
-  "homepage": "https://github.com/CLChater/simi_picture_selector.git",
-  "scripts": {
+  "description": "A React Native native image picker for iOS and Android",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "author": "SimiTalk <> (https://github.com/SimiTalk)",
+  "license": "MIT",
+  "homepage": "https://github.com/SimiTalk/simi_picture_selector#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimiTalk/simi_picture_selector.git"
   },
-   "react-native": {
-  "ios": "ios"
+  "bugs": {
+    "url": "https://github.com/SimiTalk/simi_picture_selector/issues"
   },
-   "files": [                    
-    "src",
+  "keywords": [
+    "react-native",
+    "image-picker",
+    "photo-picker",
+    "picture-selector",
     "ios",
-    "simi_picture_selector.podspec"
+    "android",
+    "camera",
+    "gallery"
   ],
+  "react-native": "src/index.js",
+  "files": [
+    "android",
+    "ios",
+    "src",
+    "simi_picture_selector.podspec",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-native": ">=0.60.0"
+  },
   "devDependencies": {
     "react": "18.2.0",
     "react-native": "0.72.6"
