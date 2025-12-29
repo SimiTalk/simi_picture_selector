@@ -1,6 +1,6 @@
 {
   "name": "simi_picture_selector",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "A React Native native image picker for iOS and Android",
   "main": "src/index",
   "author": "SimiTalk <> (https://github.com/SimiTalk)",
@@ -23,7 +23,6 @@
     "camera",
     "gallery"
   ],
-  "react-native": "src/index.js",
   "files": [
     "android",
     "ios",

@@ -32,7 +32,7 @@ public class PictureSelectorModule extends ReactContextBaseJavaModule {
      * 默认模式（图片：6 or 视频：1）
      */
     @ReactMethod
-    public void openSelector(Promise promise) {
+    public void openSelectorDefault(Promise promise) {
         simiSelectorModule.openSelector(promise);
     }
 
